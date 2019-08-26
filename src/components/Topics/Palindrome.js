@@ -35,7 +35,7 @@ isPalindrome(userInput) {
       <div className="puzzleBox filterObjectPB">
         <h4> Palindrome </h4>
         <input className="inputLine" onChange={ (e) => this.handleChange(e.target.value) }></input>
-        <button className="confirmationButton" onClick={ () => this.isPalindrome(this.state.userInput) }> Check </button>
+        <button className="confirmationButton" onClick={ () => this.isPalindrome(this.state.userInput) }> Push </button>
         <span className="resultsBox filterObjectRB"> Filtered: { JSON.stringify(this.state.palindrome) } </span>
       </div>
     )
